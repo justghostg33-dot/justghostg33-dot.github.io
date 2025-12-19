@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 90-Day Revenue Rewrite</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --black: #0a0a0a;
+            --gold: #d4af37;
+            --red: #c41e3a;
+            --muted: #888888;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--black);
+            color: white;
+            line-height: 1.7;
+            font-size: 21px;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            padding: 0 30px;
+        }
+        header {
+            text-align: center;
+            padding: 160px 20px 100px;
+        }
+        h1 {
+            font-size: 64px;
+            font-weight: 900;
+            margin-bottom: 30px;
+            color: var(--gold);
+        }
+        .subtitle {
+            font-size: 32px;
+            max-width: 760px;
+            margin: 0 auto 20px;
+        }
+        .highlight {
+            font-size: 44px;
+            color: var(--red);
+            font-weight: 900;
+            margin: 80px auto;
+            max-width: 760px;
+        }
+        section {
+            padding: 120px 20px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 48px;
+            margin-bottom: 60px;
+            color: var(--gold);
+            font-weight: 900;
+        }
+        p {
+            margin-bottom: 32px;
+            max-width: 760px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul {
+            text-align: left;
+            max-width: 660px;
+            margin: 50px auto;
+            font-size: 23px;
+        }
+        li {
+            margin: 24px 0;
+            padding-left: 36px;
+            position: relative;
+        }
+        li::before {
+            content: '•';
+            color: var(--gold);
+            position: absolute;
+            left: 0;
+            font-size: 32px;
+            line-height: 1;
+        }
+        .bold {
+            font-weight: 900;
+            font-size: 30px;
+            color: var(--red);
+        }
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            justify-content: center;
+            margin: 80px auto;
+        }
+        .option {
+            flex: 1;
+            min-width: 320px;
+            background: rgba(212,175,55,0.05);
+            padding: 50px;
+            border-radius: 20px;
+            border: 1px solid rgba(212,175,55,0.2);
+        }
+        .option h3 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: var(--gold);
+        }
+        .cta {
+            display: inline-block;
+            background: var(--red);
+            color: white;
+            padding: 32px 80px;
+            font-size: 36px;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 16px;
+            margin: 100px 0 60px;
+            box-shadow: 0 20px 50px rgba(196,30,58,0.4);
+            transition: all 0.3s;
+        }
+        .cta:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 70px rgba(196,30,58,0.5);
+        }
+        .form-section {
+            background: #000;
+            padding: 160px 20px;
+        }
+        .tally-embed {
+            max-width: 840px;
+            margin: 80px auto 0;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 30px 80px rgba(0,0,0,0.9);
+        }
+        footer {
+            text-align: center;
+            padding: 100px 20px;
+            color: var(--muted);
+            font-size: 18px;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 48px; }
+            .subtitle { font-size: 26px; }
+            .highlight { font-size: 36px; }
+            h2 { font-size: 40px; }
+            p, li { font-size: 21px; }
+            header, section { padding: 100px 20px; }
+            .cta { font-size: 30px; padding: 28px 60px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- LOGO + HEADER -->
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Eunoia Copywriter Logo" style="max-width: 600px; width: 100%; display: block; margin: 0 auto 40px auto;">
+            <h1>The 90-Day Revenue Rewrite</h1>
+            <p class="subtitle">Your copy shouldn’t just look nice.<br>It should sell — even when you’re not online.</p>
+            <p class="highlight">Right now, it doesn’t.</p>
+        </div>
+    </header>
+
+    <!-- All your other sections (unchanged) -->
+    <section>
+        <div class="container">
+            <h2>The Real Problem (Why You’re Losing Sales)</h2>
+            <p>Your business gets visitors.</p>
+            <p>Your offer makes sense.</p>
+            <p>People should be buying.</p>
+            <p>But they aren’t.</p>
+            <p>Not because your product is bad —</p>
+            <p>but because your words aren’t doing their job.</p>
+            <p>Here’s what that looks like:</p>
+            <ul>
+                <li>People visit… then leave</li>
+                <li>Emails get opened… but nothing happens</li>
+                <li>Ads get clicks… but no money comes back</li>
+                <li>Sales stop growing even though people want what you sell</li>
+            </ul>
+            <p>Nothing feels broken enough to panic.</p>
+            <p>But money is leaking every day.</p>
+            <p class="bold">That’s the most expensive problem there is.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>What I Do (Very Simple)</h2>
+            <p>I rewrite the most important pages in your business so they:</p>
+            <ul>
+                <li>make the right people feel understood</li>
+                <li>remove doubt</li>
+                <li>explain value fast</li>
+                <li>turn interest into action</li>
+            </ul>
+            <p>No hype.</p>
+            <p>No fancy words.</p>
+            <p>No brand exercises.</p>
+            <p>Just clear copy that helps people decide to buy.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>The Promise</h2>
+            <p>Within 90 days, your copy becomes one of your best sales tools.</p>
+            <p>If we don’t increase sales by at least 30% on the pages we work on,<br>I keep fixing the copy for free until it does.</p>
+            <p class="bold">No tricks.<br>No small print.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>What Gets Rewritten</h2>
+            <p>We only work on what brings money in:</p>
+            <ul>
+                <li>Your homepage or main landing page</li>
+                <li>Your main sales page or video script</li>
+                <li>Your email welcome sequence</li>
+                <li>Upsell or checkout pages (if needed)</li>
+            </ul>
+            <p>You also get:</p>
+            <ul>
+                <li>A clear sales check (what’s stopping people from buying)</li>
+                <li>Simple reasons for every change</li>
+                <li>A Loom video so your team understands why it works</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>How We Work Together</h2>
+            <div class="options">
+                <div class="option">
+                    <h3>Option 1 — Shared Results</h3>
+                    <p>Lower cost to start.<br>We win together.</p>
+                    <p>If sales go up, I earn a small share of the increase.<br>We agree on the pages, starting numbers, and time first.</p>
+                    <p>This is for founders who want a partner — not a freelancer.</p>
+                </div>
+                <div class="option">
+                    <h3>Option 2 — Flat Price</h3>
+                    <p>One price.<br>No sharing sales.</p>
+                    <p>You get the full rewrite and improvements — fast and focused.</p>
+                    <p>(Price shared after a short call)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Who This Is For</h2>
+            <p>This is for you if:</p>
+            <ul>
+                <li>your offer already sells, but not all the time</li>
+                <li>people visit your site but don’t buy</li>
+                <li>you’re tired of guessing what’s wrong</li>
+                <li>you want clear answers, not more tips</li>
+            </ul>
+            <p>This is not for:</p>
+            <ul>
+                <li>brand-new ideas with no proof</li>
+                <li>people who want clever words instead of sales</li>
+                <li>anyone looking for quick tricks</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FIXED FORM SECTION WITH WORKING BUTTON SCROLL -->
+    <section class="form-section" id="audit">
+        <div class="container">
+            <h2>The Next Step</h2>
+            <p>I don’t work with everyone.</p>
+            <p>Start with a short sales check so we can see:</p>
+            <ul>
+                <li>where money is leaking</li>
+                <li>how much fixing it could make</li>
+                <li>if working together makes sense</li>
+            </ul>
+            <p>If there’s a clear win, I’ll show you.</p>
+            <p>If not, I’ll tell you honestly.</p>
+            
+            <a href="#form" class="cta">Request the Audit →</a>
+            
+            <div id="form" class="tally-embed">
+                <iframe data-tally-src="https://tally.so/embed/jabbrE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+                        width="100%" height="1600" frameborder="0" marginheight="0" marginwidth="0" 
+                        title="Request Your Audit"></iframe>
+                <script src="https://tally.so/widgets/embed.js" async></script>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 The 90-Day Revenue Rewrite</p>
+        </div>
+    </footer>
+</body>
+</html>
